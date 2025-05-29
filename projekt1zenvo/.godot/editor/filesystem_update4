@@ -1,2 +1,5 @@
 res://coin.tscn
 res://3d_test.tscn
+res://Materials/my_first_material.tres
+res://Materials/opaque.tres
+res://Materials/metalic.tres

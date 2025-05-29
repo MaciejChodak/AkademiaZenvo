@@ -1,0 +1,33 @@
+[gd_scene load_steps=7 format=3 uid="uid://k1qkr5c6yv75"]
+
+[ext_resource type="Texture2D" uid="uid://dm83x6hwwc0qa" path="res://Sprites/Player.png" id="1_mofvx"]
+[ext_resource type="Material" uid="uid://dtc2xdow8g66e" path="res://Materials/metalic.tres" id="2_e51pi"]
+[ext_resource type="Material" uid="uid://dwka47vo5gc4a" path="res://Materials/opaque.tres" id="3_s7yid"]
+[ext_resource type="Material" uid="uid://bcnaurcx33mgk" path="res://Materials/my_first_material.tres" id="4_dbpw6"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_u5qib"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jdl2n"]
+albedo_texture = ExtResource("1_mofvx")
+
+[node name="Scena ćwiczeń" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1.05295, -0.727786, -0.0369228, 0.29289, -0.482072, 1.14959, -0.667272, 0.936843, 0.562862, 0, 0, -0.194138)
+mesh = SubResource("SphereMesh_u5qib")
+surface_material_override/0 = SubResource("StandardMaterial3D_jdl2n")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.28052, 0, 0, 0, 1.28052, 0, 0, 0, 1.28052, 0, 0, -2.12961)
+material_override = ExtResource("2_e51pi")
+mesh = SubResource("SphereMesh_u5qib")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.28052, 0, 0, 0, 1.28052, 0, 0, 0, 1.28052, 0, 0, 1.63171)
+material_override = ExtResource("3_s7yid")
+mesh = SubResource("SphereMesh_u5qib")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.28052, 0, 0, 0, 1.28052, 0, 0, 0, 1.28052, 0, 0, 3.46026)
+material_override = ExtResource("4_dbpw6")
+mesh = SubResource("SphereMesh_u5qib")
