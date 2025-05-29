@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://ciayo4ahcxh64"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_linea"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_g22v7"]
+
+[node name="Main" type="Node3D"]
+
+[node name="Arms" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.281116, 0, 0, 0, 0.263689, 0, 0, 0, 3.56599, 0, 2.61741, 0)
+mesh = SubResource("BoxMesh_linea")
+
+[node name="BodyDown" type="MeshInstance3D" parent="."]
+transform = Transform3D(2.57923, 0, 0, 0, 2.57923, 0, 0, 0, 2.57923, 0, 0.744857, 0)
+mesh = SubResource("SphereMesh_g22v7")
+
+[node name="Head" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.66587, 0)
+mesh = SubResource("SphereMesh_g22v7")
+
+[node name="BodyMiddle" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.94394, 0, 0, 0, 1.94394, 0, 0, 0, 1.94394, 0, 2.41146, 0)
+mesh = SubResource("SphereMesh_g22v7")

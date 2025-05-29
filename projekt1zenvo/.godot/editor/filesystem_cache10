@@ -1,8 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1748466203
-coin.tscn::PackedScene::6616817370849919584::1748466010::0::1::::<><><>0<>0<><>::uid://bvkxyl7csql58::::res://Sprites/Coin.png
-icon.svg::CompressedTexture2D/CompressedTexture2D::4308088272693509048::1748465902::1748465906::1::::<><><>0<>0<>66ddb389a8cc2966acc3f87846ffd383<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-main.tscn::PackedScene::1409730564603053197::1748466013::0::1::::<><><>0<>0<><>::uid://dm83x6hwwc0qa::::res://Sprites/Player.png<>uid://c1jiar1b4d2g7::::res://coin.tscn
-::res://Sprites/::1748465939
-Coin.png::CompressedTexture2D/CompressedTexture2D::3882470154825885481::1748465939::1748465939::1::::<><><>0<>0<>ae50c7fa3d8276c484ef4105b619dad7<>res://.godot/imported/Coin.png-c2cd5c0bdd61476fb24bcd9448984ab7.ctex::
-Player.png::CompressedTexture2D/CompressedTexture2D::8071395429743510132::1748465939::1748465939::1::::<><><>0<>0<>f154ae439857fefee63c1031fef53cbd<>res://.godot/imported/Player.png-0662117005c6b9039deb63a286c8efe4.ctex::
+::res://::1748502646
+coin.tscn::PackedScene/PackedScene::6616817370849919584::1748466070::0::1::::<><><>0<>0<><>::uid://bvkxyl7csql58::::res://Sprites/Coin.png
+icon.svg::CompressedTexture2D/CompressedTexture2D::4308088272693509048::1748466070::1748466122::1::::<><><>0<>0<>66ddb389a8cc2966acc3f87846ffd383<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+main.tscn::PackedScene/PackedScene::1409730564603053197::1748466070::0::1::::<><><>0<>0<><>::uid://dm83x6hwwc0qa::::res://Sprites/Player.png<>uid://c1jiar1b4d2g7::::res://coin.tscn
+::res://Sprites/::1748466122
+Coin.png::CompressedTexture2D/CompressedTexture2D::3882470154825885481::1748466070::1748466122::1::::<><><>0<>0<>ae50c7fa3d8276c484ef4105b619dad7<>res://.godot/imported/Coin.png-c2cd5c0bdd61476fb24bcd9448984ab7.ctex::
+Player.png::CompressedTexture2D/CompressedTexture2D::8071395429743510132::1748466070::1748466122::1::::<><><>0<>0<>f154ae439857fefee63c1031fef53cbd<>res://.godot/imported/Player.png-0662117005c6b9039deb63a286c8efe4.ctex::
